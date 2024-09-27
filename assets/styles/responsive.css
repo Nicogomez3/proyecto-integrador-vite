@@ -1,0 +1,360 @@
+@media(max-width: 2560px) {
+    .about__container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+}
+
+@media (max-width: 1600px) {
+    .about__container {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .about__parragraph {
+        width: 450px;
+    }
+
+    .about__img img {
+        width: 450px;
+    }
+}
+
+
+
+@media(max-width: 992px) {
+    .menu__label {
+        display: flex;
+        cursor: pointer;
+        color: white;
+        align-items: center;
+      }
+
+ 
+
+    .navbar__menu {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #2f2f30;
+        width: 100%;
+        padding: 20px;
+        display: none;
+        height: 100vh;
+    }
+
+    .navbar__menu:hover li a:not(:hover) {
+        opacity: 0.3;
+    }
+
+    .navbar__menu li a::before {
+        content: attr(data-text);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: clamp(4.6875rem, 1.9737rem + 10.8553vw, 15rem);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 500px;
+        z-index: -1;
+        color: hsl(0 0% 100% / 0.1);
+        opacity: 0;
+        transition: 0.5s ease;
+        pointer-events: none;
+    }
+
+    .navbar__menu li a:hover::before {
+        opacity: 1;
+        letter-spacing: 10px;
+    }
+    
+    .navbar__links a {
+        font-size: 3rem;
+        font-weight: 600;
+        transition: 250ms;
+        z-index: 2;
+    }
+
+    .navbar__menu li:nth-child(1) a:hover {
+        color: hsl(267 60% 76% / 0.4);
+      }
+      .navbar__menu li:nth-child(2) a:hover {
+        color: hsl(174 60% 43% / 0.4);
+      }
+      .navbar__menu li:nth-child(3) a:hover {
+        color: hsl(258 60% 35% / 0.4);
+      }
+      .navbar__menu li:nth-child(4) a:hover {
+        color: hsl(349 52% 61% / 0.4);
+      }
+      .navbar__menu li:nth-child(5) a:hover {
+        color: hsl(29 60% 70% / 0.5);
+      }
+
+    .open__menu {
+        display: flex;
+      
+    }  
+
+    .navbar {
+        gap: 10px;
+        padding: 20px 0;
+    }
+
+    .logos__container {
+        height: 110px;
+    }
+
+    .jbl {
+        width: 35px;
+    }
+
+    .panasonic {
+        width: 70px;
+    }
+
+    .samsung {
+        width: 70px;
+    }
+
+    /* ABOUT CONTAINER*/
+
+    .about__parragraph {
+        width: 450px;
+    }
+
+
+
+    .about__container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin-top: 40px;
+    }
+
+    .about__img img {
+        width: 450px;
+
+    }
+
+    .products__new__section {
+    
+        width: 500px;
+    }
+
+    .products__container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+
+
+    .products__cards:nth-child(1) img {
+        width: 250px;
+        place-items: center;
+        height: 500px;
+        object-fit: none;
+    }
+
+    .products__cards img {
+        width: 160px;
+    }
+
+    /*BENEFITS CONTAINER*/
+    .benefits__container {
+        height: 900px;
+    }
+
+    .benefits__cards__container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /*FOOTER*/ 
+
+    .footer__section {
+        flex-direction: column;
+        height: 470px;
+        gap: 50px;
+    }
+
+    .footer__subscribe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer__social__media {
+        align-items: center;
+    }
+
+}
+@media(max-width: 768px) {
+    .products__section {
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 578px) {
+    .cart {
+        height: 600px;
+        width: 300px;
+    }
+
+    .item__info {
+        font-size: 14px;
+        
+
+    }
+
+    .item__handler {
+        font-size: 12px;
+      
+    }
+
+    .hero__text {
+        font-size: 18px;
+    }
+
+    .jbl {
+        width: 35px;
+    }
+
+    .panasonic {
+        width: 70px;
+    }
+
+    .samsung {
+        width: 70px;
+    }
+
+    .text__gradient {
+        font-size: 56px;
+    }
+
+    /*LOGOS CONTAINER*/
+
+    .logos__container {
+        height: 120px;
+    }
+
+    /*ABOUT CONTAINER*/
+    .about__container {
+        padding: 0;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .about__parragraph {
+        width: 450px;
+    }
+
+       /*PRODUCTS SECTION*/
+    .products__new__section {
+    
+        width: 370px;
+    }
+
+    .products__section {
+        flex-direction: column;
+    }
+
+    /*FORM */
+    .form__title h2 {
+        font-size: 20px;
+    }
+
+    .form__inputs input,
+    .message__area {
+        width: 225px;
+    }
+
+    /*FOOTER SECTION*/
+    .footer__section {
+        height: 475px;
+    }
+
+    .footer__text {
+        text-align: center;
+    }
+}
+
+@media(max-width: 450px) {
+    .hero__text {
+        font-size: 14px;
+    }
+
+    .text__gradient {
+        font-size: 48px;
+    }
+
+    /*LOGOS*/
+    /* .logos__img {
+        width: 60px;
+    } */
+
+    /*ABOUT CONTAINER*/
+    .about__container {
+        margin-top: 90px;
+
+    }
+
+    .about__parragraph {
+        width: 250px;
+    }
+
+    .about__img img {
+        width: 300px;
+    }
+
+    /*PRODUCTS NEW SECTION*/
+    .products__new__section {
+        gap: 110px; 
+    }
+
+    .products__new__section {
+    
+        width: 290px;
+    }
+
+    /*FOOTER*/
+    .footer__section {
+        height: 900px;
+    }
+
+    .footer__text {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 320px) {
+      /*LOGOS*/
+      /* .logos__img {
+        width: 45px;
+    } */
+
+    .about__img img {
+        width: 250px;
+    }
+
+    .benefits__card h3,
+    .benefits__card3 h3 {
+        font-size: 20px;
+    }
+
+    .benefits__card p,
+    .benefits__card3 p {
+        font-size: 16px;
+    }
+
+    .footer__text {
+        text-align: center;
+    }
+}

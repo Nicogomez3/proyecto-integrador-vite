@@ -285,7 +285,8 @@ header.scrolled {
 
 
 header {
-    background-color: #264653;
+    /* background-color: #264653; */
+    background-color: #26465352;
     position: fixed;
     top: 0px;
     display: flex;
@@ -621,6 +622,7 @@ header {
 
 .about__img {
     position: relative; /* Necesario para posicionar el pseudo-elemento */
+    display: block;
 }
 
 

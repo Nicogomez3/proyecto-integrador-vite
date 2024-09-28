@@ -13,6 +13,17 @@
     scroll-padding-top: 130px;
 }
 
+/* Estilos para el header cuando se hace scroll */
+header {
+    transition: all 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+}
+
+
 
 /*MENU TOGGLE*/
 
@@ -1107,3 +1118,20 @@ body::-webkit-scrollbar {
     cursor: not-allowed;
     border: none;
 }
+
+/* Estilos generales */
+/* .typewriter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gradient.typewriter {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%; 
+*/
+
+

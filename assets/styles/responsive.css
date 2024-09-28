@@ -398,6 +398,10 @@
         width: 45px;
     } */
 
+    .about__img {
+        display: none;
+    }
+
     .about__img img {
         width: 250px;
     }

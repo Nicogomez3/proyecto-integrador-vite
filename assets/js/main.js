@@ -4,6 +4,7 @@ import { initModal } from "./modal/modal";
 import { initProductsSection } from "./products-section/products-section"
 import { typerwriterInit } from "../typewriter/typewriter";
 import { scrollInit } from "../scroll/scroll";
+import { swiperInit } from "../swiper/swiper";
 
 //SET DEL CARRITO
 
@@ -16,6 +17,7 @@ const init = () => {
     initModal()
     typerwriterInit()
     scrollInit()
+    swiperInit()
 }
 
 init()
